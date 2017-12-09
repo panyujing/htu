@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表格练习</title>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<table width="400" height="400" align="center" border="1" cellspacing="0" bgcolor="pink">
+		<tbody>
+			<tr align="center">
+				<th colspan="2">会员登录</th>
+			</tr>
+			<tr>
+				<td>用户名：</td>
+				<td>
+					<input type="text" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue; this.style.color='#999'}" style="color:#999"value="请输入用户名" maxlength="6">
+					<font color="red" size="2">最多输入6个字符</font>
+				</td>
+			</tr>
+			<tr>
+			    <td>密码：</td>
+			    <td>
+			    	<input type="password" maxlength="6">
+			    	<font color="red" size="2">最多输入6个字符</font>
+			    </td>
+				
+			</tr>
+			<tr>
+				<td>验证码：</td>
+				<td>
+					<input type="text">
+					<br>
+					<br>
+					<img src="1.jpg" alt="图片无法显示">
+				</td>
+			</tr>
+			<tr align="center">
+				<td colspan="2">
+					<a href="#">登陆</a>
+					"|"
+					<a href="#">注册</a>
+				</td>
+				
+			</tr>
+
+		</tbody>
+	
+	</table>
+
+</body>
+</html>
